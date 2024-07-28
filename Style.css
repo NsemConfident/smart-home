@@ -198,6 +198,11 @@ margin: 0 auto;
     padding: 0.8rem 1.6rem;
 }
 
+.cta a:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
 .cta .logo {
     width: 2rem;;
     height: 2rem;
@@ -206,3 +211,113 @@ margin: 0 auto;
 .logo img{
     width: 2rem;
 }
+
+.cta a h4 {
+    font-weight: 500;
+    font-size: 1.4rem;   
+}
+
+.header_socials{
+    bottom: 0;
+    left: 3rem;
+    top: 38%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+.header_decorator-1{
+    position: absolute;
+
+}
+.header_decorator-2{
+    position: absolute;
+    right: 0;
+    margin-top: -24rem;
+}
+
+/* =============== about section============ */
+
+.about_title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.about_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.about_article-title {
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+
+.about_article .btn {
+    margin-top: 2.4rem;
+}
+
+.about_image img{
+    width: 34rem;
+}
+
+/* =============== client ============ */
+
+#client {
+    text-align: center;
+}
+
+.client_container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.client_container div{
+    background: var(--color-light);
+    display: grid;
+    place-items: center;
+    height: 8rem;
+    padding: 3rem;
+    transition: all 300ms ease;
+}
+
+.client_logo1 img{
+    height: 50px;
+}
+
+.client_container div:hover {
+    background: var(--color-white);
+}
+
+/* =============== testimonials ============ */
+
+.avatar img{
+    height: 40px;
+}
+
+#testimonial p{
+    margin-bottom: 1.4rem;
+}
+
+#testimonial h1{
+    text-align: center;
+}
+
+.testimonial_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    background: var(--color-light);
+}
+
